@@ -4,6 +4,7 @@ import "@/app/globals.css"
 export const metadata: Metadata = {
   title: "Big Weekend '26",
   description: "ROOTED | live your lives in Him, rooted and built up in Him",
+  icons: "/favicon.png"
 };
 
 export default function RootLayout({

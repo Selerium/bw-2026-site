@@ -64,7 +64,7 @@ export default function Home() {
             >
               Big Weekend is an event for 12-18 year old students. It consists
               of 2 nights and three days of worship, fun & games, small group
-              discussions, and four teaching sessions designed to support
+              discussions, and multiple teaching sessions designed to support
               spiritual growth for teenagers in the Gulf region. It is an
               opportunity to meet other young people from our region and make
               new friends. Participants that attend come from a large variety of
