@@ -47,8 +47,8 @@ export default function Navbar() {
           </Link>
         </div>
         <Link
-          href=""
-          className={`w-42 ${secondaryFont.className} hidden md:block pointer-actions-none cursor-not-allowed font-black button bg-primary/50 text-white`}
+          href="https://crosscurrent.ae"
+          className={`w-42 ${secondaryFont.className} hidden md:block font-black button bg-primary text-white`}
         >
           BW PORTAL
         </Link>
@@ -96,8 +96,8 @@ export default function Navbar() {
           merch
         </Link>
         <Link
-          href=""
-          className={`w-42 ${secondaryFont.className} pointer-actions-none cursor-not-allowed font-black button bg-primary/50 text-white`}
+          href="https://crosscurrent.ae"
+          className={`w-42 ${secondaryFont.className} font-black button bg-primary text-white`}
         >
           BW PORTAL
         </Link>
