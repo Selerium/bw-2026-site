@@ -241,12 +241,12 @@ export default function Home() {
             <span
               className={`${primaryFont.className} text-center text-xl sm:text-2xl md:text-3xl`}
             >
-              530 AED (by Aug 31)
+              530 AED (by Sep 6)
             </span>
             <span
               className={`${primaryFont.className} text-center text-xl sm:text-2xl md:text-3xl`}
             >
-              580 AED (after Aug 31)
+              580 AED (after Sep 6)
             </span>
           </div>
         </div>
