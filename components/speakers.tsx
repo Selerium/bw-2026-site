@@ -23,7 +23,7 @@ export default function Speakers() {
       favoriteFood: "samgyeopsal",
       bibleVerse: "jeremiah 17:7-8",
       nationality: "filipino",
-      image: "/speakers/xerxes.jpeg",
+      image: "/speakers/xerxes.png",
     },
     {
       name: "Frank Meyer",
@@ -104,8 +104,8 @@ export default function Speakers() {
       <div className="w-full lg:h-148 rounded-xl border border-gray-200 overflow-hidden flex flex-col lg:flex-row">
         <div className="grow bg-black flex justify-center items-center relative overflow-hidden">
           <Image src={chosenSpeaker.image} alt={`A blurred background.`} className="object-cover blur-md opacity-50" fill />
-          <div className="aspect-video h-full w-full lg:h-11/12 lg:w-11/12 relative">
-            <Image src={chosenSpeaker.image} alt={`A picture of ${chosenSpeaker.name}, a BW26 speaker.`} className="lg:rounded-xl object-cover" fill />
+          <div className="aspect-video h-full w-full lg:h-11/12 lg:w-4/5 relative">
+            <Image src={chosenSpeaker.image} alt={`A picture of ${chosenSpeaker.name}, a BW26 speaker.`} className="lg:rounded-xl object-cover object-center" fill />
           </div>
         </div>
         <div
