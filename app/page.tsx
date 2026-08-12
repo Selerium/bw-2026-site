@@ -178,7 +178,7 @@ export default function Home() {
               fill
               className="object-cover absolute -z-10 rounded-lg"
             />
-            <div className="object-cover absolute -z-10 rounded-lg bg-black/50 w-full h-full" />
+            <div className="object-cover absolute -z-10 rounded-lg bg-black/75 w-full h-full" />
             <MapPinIcon className="w-6 h-6" />
             <span
               className={`${tertiaryFont.className} text-center text-xl sm:text-2xl`}
@@ -203,7 +203,7 @@ export default function Home() {
               fill
               className="object-cover absolute -z-10 rounded-lg"
             />
-            <div className="object-cover absolute -z-10 rounded-lg bg-black/50 w-full h-full" />
+            <div className="object-cover absolute -z-10 rounded-lg bg-black/75 w-full h-full" />
             <CalendarIcon className="w-6 h-6" />
             <span
               className={`${tertiaryFont.className} text-center text-xl sm:text-2xl`}
@@ -228,7 +228,7 @@ export default function Home() {
               fill
               className="object-cover absolute -z-10 rounded-lg"
             />
-            <div className="object-cover absolute -z-10 rounded-lg bg-black/50 w-full h-full" />
+            <div className="object-cover absolute -z-10 rounded-lg bg-black/75 w-full h-full" />
             <DollarSignIcon className="w-6 h-6" />
             <span
               className={`${tertiaryFont.className} text-center text-xl sm:text-2xl`}
@@ -269,19 +269,19 @@ export default function Home() {
       >
         <span className={`${primaryFont.className}`}>BW26</span>
         <Link
-          className="hover:font-black transition-all flex justify-center gap-1"
+          className="hover:bg-gray-100/75 hover:text-black p-2 rounded-lg transition-all flex justify-center gap-1"
           href="/"
         >
           BW Portal
         </Link>
         <Link
-          className="hover:font-black transition-all flex justify-center gap-1"
+          className="hover:bg-gray-100/75 hover:text-black p-2 rounded-lg transition-all flex justify-center gap-1"
           href="https://instagram.com/bigweekenduae"
         >
           <ExternalLink width={20} height={20} /> Big Weekend Instagram
         </Link>
         <Link
-          className="hover:font-black transition-all flex justify-center gap-1"
+          className="hover:bg-gray-100/75 hover:text-black p-2 rounded-lg transition-all flex justify-center gap-1"
           href="https://instagram.com/eyunlimited"
         >
           <ExternalLink width={20} height={20} /> EYU Instagram

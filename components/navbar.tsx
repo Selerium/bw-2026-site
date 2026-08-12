@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div className={`w-full relative z-50 ${primaryFont.className}`}>
       <nav
-        className={`flex fixed top-0 justify-between items-center w-full px-6 md:px-20 py-10`}
+        className={`flex fixed top-0 justify-between items-center w-full px-6 md:px-20 py-6 bg-white/50 backdrop-blur-sm`}
       >
         <span className="w-42 text-xl md:text-3xl text-primary">BW26</span>
         <div className="hidden md:flex w-fit gap-10">
@@ -48,7 +48,7 @@ export default function Navbar() {
         </div>
         <Link
           href=""
-          className={`w-42 ${secondaryFont.className} hidden md:block font-black button bg-primary text-white`}
+          className={`min-w-fit w-42 ${secondaryFont.className} hidden md:block font-black button bg-primary text-white hover:bg-white hover:text-primary border transition-all`}
         >
           BW PORTAL
         </Link>
