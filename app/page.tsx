@@ -35,14 +35,14 @@ export default function Home() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mt-8 sm:mt-10 w-full max-w-xs sm:max-w-none sm:w-auto px-4 sm:px-0">
           <Link
-            className={`${secondaryFont.className} w-full sm:w-50 font-black bg-primary text-white button`}
+            className={`${secondaryFont.className} w-full sm:w-50 font-black bg-primary hover:bg-white text-white hover:text-primary border-primary border hover:border-primary transition-all button `}
             href="#about"
           >
             LEARN MORE
           </Link>
           <Link
-            className={`${secondaryFont.className} pointer-actions-none cursor-not-allowed w-full sm:w-50 font-black bg-secondary/50 text-white button relative`}
-            href=""
+            className={`${secondaryFont.className} w-full sm:w-50 font-black bg-secondary hover:bg-white text-white hover:text-secondary border-secondary border hover:border-secondary transition-all button  relative`}
+            href="https://crosscurrent.ae"
           >
             SIGN UP
           </Link>
@@ -145,12 +145,15 @@ export default function Home() {
           strengthened in the faith as you were taught, and overflowing with
           thankfulness.”
         </p>
-        <div className="w-full sm:w-4/5 md:w-3/5 aspect-video bg-neutral-200 rounded-lg flex justify-center items-center">
-          <span
-            className={`${secondaryFont.className} py-16 sm:py-24 md:py-40 font-bold text-primary`}
-          >
-            COMING SOON
-          </span>
+        <div className="w-full overflow-hidden sm:w-4/5 md:w-3/5 aspect-video bg-neutral-200 rounded-lg flex justify-center items-center">
+          <iframe
+          className="w-full h-full"
+            src="https://www.youtube.com/embed/g7bpvXJVWiQ?rel=0&showinfo=0&controls=0&autohide=1"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
         </div>
       </div>
       <div

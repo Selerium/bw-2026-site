@@ -47,7 +47,7 @@ export default function Navbar() {
           </Link>
         </div>
         <Link
-          href=""
+          href="https://crosscurrent.ae"
           className={`min-w-fit w-42 ${secondaryFont.className} hidden md:block font-black button bg-primary text-white hover:bg-white hover:text-primary border transition-all`}
         >
           BW PORTAL
@@ -96,7 +96,7 @@ export default function Navbar() {
           merch
         </Link>
         <Link
-          href=""
+          href="https://crosscurrent.ae"
           className={`w-42 ${secondaryFont.className} font-black button bg-primary text-white`}
         >
           BW PORTAL
