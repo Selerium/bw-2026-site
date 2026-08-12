@@ -86,7 +86,7 @@ export default function Speakers() {
             <button
               onClick={() => setChosenSpeaker(speaker)}
               key={speaker.name}
-              className={`${primaryFont.className} uppercase min-w-54 max-w-1/4 text-black text-xl rounded-xl px-4 py-4 lg:py-8 bg-neutral-200 grow`}
+              className={`${primaryFont.className} uppercase min-w-54 max-w-1/4 ${chosenSpeaker.name === speaker.name ? 'text-primary' : 'text-black'} hover:text-white text-xl rounded-xl px-4 py-4 lg:py-8 bg-neutral-200 hover:bg-primary grow transition-all cursor-pointer`}
             >
               {speaker.name}
             </button>
