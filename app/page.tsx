@@ -77,7 +77,7 @@ export default function Home() {
             >
               Big Weekend is all about inspiring the youth to set their faith in
               Jesus while having exhilarating games, awesome activities,
-              uplifting worship, and gospel inspired teachings — all wrapped up
+              uplifting worship, and gospel inspired teachings, all wrapped up
               in their small groups. Get ready for a weekend of fun and faith!
             </p>
           </div>

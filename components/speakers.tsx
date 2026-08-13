@@ -7,7 +7,7 @@ export default function Speakers() {
   const sessionSpeakers = [
     {
       name: "Arno Alajoki",
-      church: "YFC",
+      church: "al ain evangelical church",
       brief:
         "Arno serves as the National Director for Youth for Christ in the UAE. He is originally from Finland and married to Laura. They have three daughters. Arno has been in cross cultural Christian ministry since 2003. He loves to help people being grounded in the scripture, finding their purpose and calling in God’s Kingdom as well as weather the storms of life through developing spiritual resilience.",
       favoriteFood: "steak",
@@ -16,10 +16,10 @@ export default function Speakers() {
       image: "/speakers/arno.jpeg",
     },
     {
-      name: "Xerxes Duane Magdaluyo",
-      church: "Fellowship Dubai",
+      name: "Xerxes Magdaluyo",
+      church: "fellowship dubai",
       brief:
-      "Xerxes is a Filipino pastor in Dubai who spends his week building websites, apps, and AI tools, and his heart on one thing: helping people find Jesus in the place they actually look first, their phone. He and his wife Loraine pastor people the internet brought to their table. Warning: he will probably ask you for three names.",
+      "Xerxes is a Filipino pastor apprenticing at Fellowship Dubai who spends his week building websites, apps, and AI tools, and his heart on one thing: helping people find Jesus in the place they actually look first, their phone. He and his wife Loraine pastor people the internet brought to their table. Warning: he will probably ask you for three names.",
       favoriteFood: "samgyeopsal",
       bibleVerse: "jeremiah 17:7-8",
       nationality: "filipino",
@@ -27,11 +27,11 @@ export default function Speakers() {
     },
     {
       name: "Frank Meyer",
-      church: "Fellowship Dubai",
+      church: "fellowship dubai",
       brief:
       "Frank has spent 25 years in pastoral ministry, most of it devoted to helping young people build a faith that holds up under real life. His heart is for discipleship that shapes everything, not just a Sunday morning, and for raising up young leaders who carry that conviction into the world. For the past 15 years he has lived in the UAE, serving in  multicultural churches, developing a world missional perspective. Frank’s passion is to see teens become fully devoted followers of Jesus with all of their life for all of their life.",
-      favoriteFood: "(unknown)",
-      bibleVerse: "(unknown)",
+      favoriteFood: "tacos",
+      bibleVerse: "philippians 4:12",
       nationality: "american",
       image: "/speakers/frank.jpeg",
     },
@@ -86,7 +86,7 @@ export default function Speakers() {
             <button
               onClick={() => setChosenSpeaker(speaker)}
               key={speaker.name}
-              className={`${primaryFont.className} uppercase min-w-54 max-w-1/4 ${chosenSpeaker.name === speaker.name ? 'text-primary' : 'text-black'} hover:text-white text-xl rounded-xl px-4 py-4 lg:py-8 bg-neutral-200 hover:bg-primary grow transition-all cursor-pointer`}
+              className={`${primaryFont.className} capitalize min-w-54 max-w-1/4 ${chosenSpeaker.name === speaker.name ? 'text-primary' : 'text-black'} hover:text-white text-xl rounded-xl px-4 py-4 lg:py-8 bg-neutral-200 hover:bg-primary grow transition-all cursor-pointer`}
             >
               {speaker.name}
             </button>
@@ -113,10 +113,10 @@ export default function Speakers() {
         >
           {chosenSpeaker ? (
             <>
-              <span className={`${primaryFont.className} uppercase text-xl`}>
+              <span className={`${primaryFont.className} capitalize text-xl`}>
                 {chosenSpeaker.name}
               </span>
-              <span className={`${tertiaryFont.className} text-lg`}>
+              <span className={`${secondaryFont.className} text-lg font-bold capitalize`}>
                 {chosenSpeaker.church}
               </span>
               <p className="mt-4 overflow-y-scroll h-48 px-4 text-justify text-lg">{chosenSpeaker.brief}</p>
