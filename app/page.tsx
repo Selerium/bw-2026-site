@@ -232,7 +232,9 @@ export default function Home() {
               className="object-cover absolute -z-10 rounded-lg"
             />
             <div className="object-cover absolute -z-10 rounded-lg bg-black/75 w-full h-full" />
-            <DollarSignIcon className="w-6 h-6" />
+            <div className="w-6 h-6 relative">
+            <Image alt="dirham icon" src="/dirham.png" fill className="invert" />
+            </div>
             <span
               className={`${tertiaryFont.className} text-center text-xl sm:text-2xl`}
             >
