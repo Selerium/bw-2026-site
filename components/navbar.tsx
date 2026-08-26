@@ -41,6 +41,12 @@ export default function Navbar() {
           </Link>
           <Link
             className="text-sm hover:text-secondary transition-all"
+            href="/#faq"
+          >
+            FAQs
+          </Link>
+          <Link
+            className="text-sm hover:text-secondary transition-all"
             href="/#merch"
           >
             merch
@@ -88,6 +94,12 @@ export default function Navbar() {
           href="/#details"
         >
           details
+        </Link>
+        <Link
+          className="text-sm hover:text-secondary transition-all"
+          href="/#faq"
+        >
+          FAQs
         </Link>
         <Link
           className="text-sm hover:text-secondary transition-all"

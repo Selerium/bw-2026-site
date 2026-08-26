@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import { primaryFont, secondaryFont, tertiaryFont } from "@/fonts/fonts";
 import Link from "next/link";
 import Speakers from "@/components/speakers";
+import Faq from "@/components/faq";
 import EmblaCarousel from "@/components/carousel";
 import {
   CalendarIcon,
@@ -252,6 +253,12 @@ export default function Home() {
             </span>
           </div>
         </div>
+      </div>
+      <div
+        id="faq"
+        className="flex flex-col justify-center items-center gap-8 md:gap-12 min-h-dvh w-full px-4 py-16 sm:px-8 lg:px-20 scroll-mt-24"
+      >
+        <Faq />
       </div>
       <div
         id="merch"
