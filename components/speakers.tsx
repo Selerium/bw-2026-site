@@ -16,16 +16,6 @@ export default function Speakers() {
       image: "/speakers/arno.jpeg",
     },
     {
-      name: "Xerxes Magdaluyo",
-      church: "fellowship dubai",
-      brief:
-      "Xerxes is a Filipino pastor apprenticing at Fellowship Dubai who spends his week building websites, apps, and AI tools, and his heart on one thing: helping people find Jesus in the place they actually look first, their phone. He and his wife Loraine pastor people the internet brought to their table. Warning: he will probably ask you for three names.",
-      favoriteFood: "samgyeopsal",
-      bibleVerse: "jeremiah 17:7-8",
-      nationality: "filipino",
-      image: "/speakers/xerxes.png",
-    },
-    {
       name: "Frank Meyer",
       church: "fellowship dubai",
       brief:
