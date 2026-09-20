@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BW 2026 Website
 
-## Getting Started
+A Next.js website for the 2026 BW event, built to present event information, speakers, pricing, FAQs, and related content through a responsive web experience.
 
-First, run the development server:
+The site is actively maintained as event information changes.
+
+(note: this code is provided for portfolio review only. Please see the LICENSE file for restrictions on use.)
+
+## Features
+
+* Event landing page
+* Speaker information
+* Pricing and early-bird information
+* FAQ section
+* Event/session information
+* Responsive layouts
+* Interactive speaker UI
+* Event content updates
+* Navigation and content sections
+
+## Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Embla Carousel
+* Lucide React
+* ESLint
+
+## Development
+
+### Requirements
+
+* Node.js
+* npm, pnpm, yarn, or Bun
+
+### Install
+
+```bash
+npm install
+```
+
+### Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Production build
 
-## Learn More
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Lint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run lint
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Notes
 
-## Deploy on Vercel
+This repository represents an actively maintained event website rather than a static one-off implementation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Content and functionality have been updated throughout the event lifecycle, including:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* speaker information
+* pricing
+* FAQs
+* event details
+* UI interactions
+
+The project demonstrates the practical side of frontend engineering: taking an existing design/content requirement and maintaining the application as the underlying event information changes.
+
+## Status
+
+Active event website.
